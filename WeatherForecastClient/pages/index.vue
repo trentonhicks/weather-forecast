@@ -5,10 +5,10 @@ const { data: forecastDays, pending } = useFetch<ForecastDay[]>(`http://localhos
 </script>
 
 <template>
-    <div class="min-h-screen bg-gray-800 px-10 py-10">
+    <div class="h-screen max-5xl bg-gray-800 px-10 flex items-center">
       <WeatherForecast
         v-if="!pending"
-        class="relative z-10 mix-blend-overlay"
+        class="relative z-10 mix-blend-plus-lighter w-full"
         :forecast-days="forecastDays!"
       />
       <div class="mix-blend-soft-light">

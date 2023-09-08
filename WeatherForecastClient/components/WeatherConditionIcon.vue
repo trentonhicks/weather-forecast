@@ -38,7 +38,7 @@ const weatherIconClass = computed(() => {
 </script>
 
 <template>
-    <div class="weather-icon text-2xl mb-2 text-gray-700">
+    <div class="weather-icon text-2xl text-gray-700">
         <FontAwesomeIcon :icon="weatherIconClass" />
     </div>
 </template>

@@ -4,6 +4,6 @@ defineProps<{ fahrenheit: number, celsius: number }>();
 
 <template>
     <div>
-        <p class="text-gray-600">Low: {{ fahrenheit }}°F / {{ celsius }}°C</p>
+        <p class="text-gray-700 font-semibold">Low: {{ fahrenheit }}°F / {{ celsius }}°C</p>
     </div>
 </template>

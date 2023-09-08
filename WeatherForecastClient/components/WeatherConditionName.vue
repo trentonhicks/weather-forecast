@@ -38,5 +38,5 @@ const weatherConditionName = (condition: WeatherCondition) => {
 </script>
 
 <template>
-    <p class="font-semibold text-lg">{{ weatherConditionName(condition) }}</p>
+    <p class="font-bold text-lg text-gray-950/90">{{ weatherConditionName(condition) }}</p>
 </template>
