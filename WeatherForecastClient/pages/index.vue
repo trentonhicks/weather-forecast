@@ -10,7 +10,6 @@ const { data: forecastDays, pending } = useFetch<ForecastDay[]>(`http://localhos
         v-if="!pending"
         class="relative z-10 mix-blend-plus-lighter w-full"
         :forecast-days="forecastDays!"
-        :display-fahrenheit="true"
       />
       <div class="mix-blend-soft-light">
         <img src="~/assets/images/WeatherBackground.jpg" class="fixed inset-0 z-0 blur-lg" />
